@@ -188,6 +188,7 @@ public class SEPARACIONCOD {
 					// al terminar la linea ya no se pueden hacer asignaciones y se limpia el tipo
 					// de dato
 					ban_asigna = false;
+					//aqui se controlara el if y do-while
 				}
 			} else if (!BvecString(operandos, palabra).equalsIgnoreCase("")) {
 				// encuentra al operando potencial borrado
